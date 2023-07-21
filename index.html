@@ -5,11 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quote Generator</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="icon" type="image/png" href="./favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="./script.js" defer></script>
     
 </head>
 <body>
+    <div class="quote-container" id="quote-container">
+        <div class="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum maiores eos iusto modi laborum quos consectetur, ad dolorem vitae provident a repudiandae, enim laboriosam ea, tenetur ratione cum quae blanditiis?</span>
+        </div>
+        <div class="quote-author">
+            <span id="author">Buddha</span>
+        </div>
+        <div class="button-container">
+            <button class="twitter-button" id="twitter" title="Tweet this quote!">
+                <i class="fab fa-twitter"></i>
+            </button>
+            <button class="new-quote" id="new-quote">New Quote</button>
+        </div>
+    </div>
 </html>
